@@ -1,0 +1,14 @@
+{
+  "name": "node-test",
+  "version": "1.0.0",
+  "description": "Source code for node.js test programs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./lib/**/*.spec.js"
+  },
+  "author": "Hao Tang <haotang.io@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.5.0"
+  }
+}
